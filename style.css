@@ -1,4 +1,53 @@
-body {
+*{
+ margin: 0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: rgb(249, 248, 245);
+    padding: 10pt;
+    display: flex;
     justify-content: center;
     align-items: center;
+    height: 90vh;
+}
+.form{
+    padding: 22pt;
+    /* border: 1pt solid black; */
+    width: 25%;
+    background-color: rgb(237, 238, 239);
+    border-radius: 5pt;
+    box-shadow: 2pt 2pt 20pt 2pt;
+}
+.heading
+{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-top: 8pt;
+    margin-bottom: 18pt;
+    text-align: center;
+}
+input{
+    width: 100%;
+    border: 1pt solid rgb(156, 151, 151);
+    height: 25pt;
+    border-radius: 5pt;
+}
+.label{
+    margin-bottom: 2pt;
+    margin-top: 5pt;
+    border-radius: 5pt;
+}
+button{
+    width: 100%;
+    background-color: forestgreen;
+    color: aliceblue;
+    padding: 5pt;
+    border: 0;
+    margin-top: 15pt;
+    margin-bottom: 20pt;
+    height: 30pt;
+    font-size: large;
+    border-radius: 5pt;
 }
