@@ -1,4 +1,4 @@
-h1{
-    color: red;
-    background: rgb(74, 255, 198);
+body {
+    justify-content: center;
+    align-items: center;
 }
